@@ -1,0 +1,269 @@
+html{
+    background-image: url(images/azzaro\ background.png);
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: 100%;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-auto-rows: 100px;
+}
+#azzaro-kopje{
+    grid-column: 1/21;
+    grid-row: 2;
+    font-size: 460%;
+    text-align: center;
+    background-color: darkorange;
+    color: black;
+    border-radius: 25px;
+    border-width: 0px;
+}
+#azzaro-wanted-edt-leegte{
+    grid-column: 1/5;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: white;
+}
+#azzaro-wanted-edt{
+    grid-column: 1;
+    grid-row: 4/7;
+    height: auto;
+    width: 200%;
+    text-align: center;
+}
+#azzaro-wanted-edt-text{
+    grid-column: 1/5;
+    grid-row: 8;
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#azzaro-wanted-edp-leegte{
+    grid-column: 6/10;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: white;
+}
+#azzaro-wanted-edp{
+    grid-column: 6;
+    grid-row: 4/7;
+    height: auto;
+    width: 200%;
+    text-align: center;
+}
+#azzaro-wanted-edp-text{
+    grid-column: 6/10;
+    grid-row: 8;
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#azzaro-most-wanted-edp-leegte{
+    grid-column: 12/16;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: white;
+}
+#azzaro-most-wanted-edp{
+    grid-column: 12;
+    grid-row: 4/7;
+    height: auto;
+    width: 200%;
+    text-align: center;
+}
+#azzaro-most-wanted-edp-text{
+    grid-column: 12/16;
+    grid-row: 8;
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#azzaro-most-wanted-edp-intense-leegte{
+    grid-column: 17/21;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: white;
+}
+#azzaro-most-wanted-edp-intense{
+    grid-column: 17;
+    grid-row: 4/7;
+    height: auto;
+    width: 200%;
+    text-align: center;
+}
+#azzaro-most-wanted-edp-intense-text{
+    grid-column: 17/21;
+    grid-row: 8;
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#main-page{
+    grid-column: 1/6;
+    grid-row: 2;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: darkorange;
+    color: black;
+    border-radius: 25px;
+    border-color: black;
+    font-size: 3vw;
+    border-width: 10px;
+}
+@media (orientation:portrait) {
+    html{
+        background-image: url(images/azzaro\ background\ portrait.png);
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size: 100%;
+    }
+    #azzaro-kopje{
+        grid-column: 1/21;
+        grid-row: 2;
+        font-size: 460%;
+        text-align: center;
+        background-color: darkorange;
+        color: black;
+        border-radius: 25px;
+        border-width: 0px;
+    }
+    #azzaro-wanted-edt-leegte{
+        grid-column: 1/21;
+        grid-row: 3/5;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: white;
+    }
+    #azzaro-wanted-edt{
+        grid-column: 4/5;
+        grid-row: 3/5;
+        height: 100%;
+        width: auto;
+        text-align: center;
+    }
+    #azzaro-wanted-edt-text{
+        grid-column: 7/21;
+        grid-row: 3;
+        color: white;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #azzaro-wanted-edp-leegte{
+        grid-column: 1/21;
+        grid-row: 6/8;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: white;
+    }
+    #azzaro-wanted-edp{
+        grid-column: 4/5;
+        grid-row: 6/8;
+        height: 100%;
+        width: auto;
+        text-align: center;
+    }
+    #azzaro-wanted-edp-text{
+        grid-column: 7/21;
+        grid-row: 6;
+        color: white;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #azzaro-most-wanted-edp-leegte{
+        grid-column: 1/21;
+        grid-row: 9/11;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: white;
+    }
+    #azzaro-most-wanted-edp{
+        grid-column: 4/5;
+        grid-row: 9/11;
+        height: 100%;
+        width: auto;
+        text-align: center;
+    }
+    #azzaro-most-wanted-edp-text{
+        grid-column: 7/21;
+        grid-row: 9;
+        color: white;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #azzaro-most-wanted-edp-intense-leegte{
+        grid-column: 1/21;
+        grid-row: 12/14;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: white;
+    }
+    #azzaro-most-wanted-edp-intense{
+        grid-column: 4/5;
+        grid-row: 12/14;
+        height: 100%;
+        width: auto;
+        text-align: center;
+    }
+    #azzaro-most-wanted-edp-intense-text{
+        grid-column: 7/21;
+        grid-row: 12;
+        color: white;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #main-page{
+        grid-column: 1/11;
+        grid-row: 1;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: darkorange;
+        color: black;
+        border-radius: 25px;
+        border-color: black;
+        font-size: 8vw;
+        border-width: 10px;
+    }
+}

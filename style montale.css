@@ -1,0 +1,275 @@
+html{
+    background-image: url(images/montale\ achtergrond.png);
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: 100%;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-auto-rows: 100px;
+}
+#montale-kopje{
+    grid-column: 1/21;
+    grid-row: 2;
+    font-size: 460%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border-width: 0px;
+}
+#montale-aoud-lime-leegte{
+    grid-column: 1/5;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: black;
+}
+#montale-aoud-lime{
+    grid-column: 1;
+    grid-row: 4/7;
+    height: auto;
+    width: 200%;
+    text-align: center;
+}
+#montale-aoud-lime-text{
+    grid-column: 1/5;
+    grid-row: 8;
+    color: black;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#montale-aoud-safran-leegte{
+    grid-column: 6/10;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: black;
+}
+#montale-aoud-safran{
+    grid-column: 6;
+    grid-row: 4/7;
+    height: auto;
+    width: 200%;
+    text-align: center;
+}
+#montale-aoud-safran-text{
+    grid-column: 6/10;
+    grid-row: 8;
+    color: black;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#montale-aoud-amber-rose-leegte{
+    grid-column: 12/16;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: black;
+}
+#montale-aoud-amber-rose{
+    grid-column: 12;
+    grid-row: 4/7;
+    height: auto;
+    width: 210%;
+    margin-left: -10px;
+    text-align: center;
+}
+#montale-aoud-amber-rose-text{
+    grid-column: 12/16;
+    grid-row: 8;
+    color: black;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#montale-white-aoud-leegte{
+    grid-column: 17/21;
+    grid-row: 3/11;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    color: rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: black;
+}
+#montale-white-aoud{
+    grid-column: 17;
+    grid-row: 4/7;
+    height: auto;
+    width: 190%;
+    margin-left: 5px;
+    text-align: center;
+}
+#montale-white-aoud-text{
+    grid-column: 17/21;
+    grid-row: 8;
+    color: black;
+    text-align: center;
+    font-size: 2.5vw;
+}
+#main-page{
+    grid-column: 1/6;
+    grid-row: 2;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border-color: white;
+    font-size: 3vw;
+    border-width: 10px;
+}
+@media (orientation:portrait) {
+    html{
+        background-image: url(images/montale\ achtergrond.png);
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size: 100%;
+    }
+    #montale-kopje{
+        grid-column: 1/21;
+        grid-row: 2;
+        font-size: 400%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border-radius: 25px;
+        border-width: 0px;
+    }
+    #montale-aoud-lime-leegte{
+        grid-column: 1/21;
+        grid-row: 3/5;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: black;
+    }
+    #montale-aoud-lime{
+        grid-column: 4/5;
+        grid-row: 3/5;
+        height: 95%;
+        margin-top: 5px;
+        width: auto;
+        text-align: center;
+    }
+    #montale-aoud-lime-text{
+        grid-column: 7/21;
+        grid-row: 3;
+        color: black;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #montale-aoud-safran-leegte{
+        grid-column: 1/21;
+        grid-row: 6/8;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: black;
+    }
+    #montale-aoud-safran{
+        grid-column: 4/5;
+        grid-row: 6/8;
+        height: 95%;
+        margin-top: 5px;
+        width: auto;
+        text-align: center;
+    }
+    #montale-aoud-safran-text{
+        grid-column: 7/21;
+        grid-row: 6;
+        color: black;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #montale-aoud-amber-rose-leegte{
+        grid-column: 1/21;
+        grid-row: 9/11;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: black;
+    }
+    #montale-aoud-amber-rose{
+        grid-column: 4/5;
+        grid-row: 9/11;
+        height: 100%;
+        margin-top: 3px;
+        width: auto;
+        text-align: center;
+    }
+    #montale-aoud-amber-rose-text{
+        grid-column: 7/21;
+        grid-row: 9;
+        color: black;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #montale-white-aoud-leegte{
+        grid-column: 1/21;
+        grid-row: 12/14;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        border-radius: 100px;
+        border-width: 5px;
+        border-color: black;
+    }
+    #montale-white-aoud{
+        grid-column: 4/5;
+        grid-row: 12/14;
+        height: 100%;
+        margin-left: 2px;
+        width: auto;
+        text-align: center;
+    }
+    #montale-white-aoud-text{
+        grid-column: 7/21;
+        grid-row: 12;
+        color: black;
+        text-align: center;
+        font-size: 4.75vw;
+    }
+    #main-page{
+        grid-column: 1/11;
+        grid-row: 1;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        color: black;
+        border-radius: 25px;
+        border-color: black;
+        font-size: 8vw;
+        border-width: 10px;
+    }
+}

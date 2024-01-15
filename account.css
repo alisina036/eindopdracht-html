@@ -32,11 +32,11 @@ body {
   }
   
   input, textarea {
-    background-color: white;
+    background-color: blue;
     border-width: 1px;
     border-style: solid;
     border-color: white;
-    color: black;
+    color: white;
   }
   
   .inline {
@@ -51,8 +51,8 @@ body {
     margin: 1em auto;
     height: 2em;
     font-size: 20px;
-    background-color: white;
-    border-color: black;
+    background-color: blue;
+    border-color: white;
     min-width: 300px;
   }
 
@@ -65,3 +65,21 @@ body {
   a:hover{
     color: white;
   }
+  input{
+    border-radius: 25px;
+  }
+::placeholder{
+  color: white;
+}
+label{
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+}
+legend{
+  font-size: 25px;
+}
+h1{
+  font-size: 50px;
+}
